@@ -31,6 +31,13 @@
 		E756FAD22E7DA553003DF5C8 /* AngleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756FAD12E7DA553003DF5C8 /* AngleExtensions.swift */; };
 		E756FAD42E7DB8FB003DF5C8 /* TextModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756FAD32E7DB8FB003DF5C8 /* TextModal.swift */; };
 		E756FAD62E7DBE14003DF5C8 /* LayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756FAD52E7DBE14003DF5C8 /* LayoutView.swift */; };
+		E756FADC2E7DCB44003DF5C8 /* AppLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756FADB2E7DCB44003DF5C8 /* AppLoadingView.swift */; };
+		E756FADE2E7DCB8F003DF5C8 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756FADD2E7DCB8F003DF5C8 /* SplashScreen.swift */; };
+		E756FAE02E7DCD80003DF5C8 /* ListSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756FADF2E7DCD80003DF5C8 /* ListSelection.swift */; };
+		E756FAE62E7DD13E003DF5C8 /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756FAE12E7DD13E003DF5C8 /* AppFonts.swift */; };
+		E756FAE72E7DD13E003DF5C8 /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756FAE22E7DD13E003DF5C8 /* Carousel.swift */; };
+		E756FAE82E7DD13E003DF5C8 /* ShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756FAE32E7DD13E003DF5C8 /* ShareCardView.swift */; };
+		E756FAE92E7DD13E003DF5C8 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756FAE42E7DD13E003DF5C8 /* TextView.swift */; };
 		E7B064E32E76BDC80027F1E5 /* CardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B064E22E76BDC80027F1E5 /* CardsApp.swift */; };
 		E7B064E52E76BDC80027F1E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B064E42E76BDC80027F1E5 /* ContentView.swift */; };
 		E7B064E72E76BDCD0027F1E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B064E62E76BDCD0027F1E5 /* Assets.xcassets */; };
@@ -68,6 +75,13 @@
 		E756FAD12E7DA553003DF5C8 /* AngleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleExtensions.swift; sourceTree = "<group>"; };
 		E756FAD32E7DB8FB003DF5C8 /* TextModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModal.swift; sourceTree = "<group>"; };
 		E756FAD52E7DBE14003DF5C8 /* LayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutView.swift; sourceTree = "<group>"; };
+		E756FADB2E7DCB44003DF5C8 /* AppLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLoadingView.swift; sourceTree = "<group>"; };
+		E756FADD2E7DCB8F003DF5C8 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		E756FADF2E7DCD80003DF5C8 /* ListSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSelection.swift; sourceTree = "<group>"; };
+		E756FAE12E7DD13E003DF5C8 /* AppFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
+		E756FAE22E7DD13E003DF5C8 /* Carousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		E756FAE32E7DD13E003DF5C8 /* ShareCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareCardView.swift; sourceTree = "<group>"; };
+		E756FAE42E7DD13E003DF5C8 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		E7B064DF2E76BDC80027F1E5 /* Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B064E22E76BDC80027F1E5 /* CardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsApp.swift; sourceTree = "<group>"; };
 		E7B064E42E76BDC80027F1E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -151,9 +165,21 @@
 			path = "Card Modal Views";
 			sourceTree = "<group>";
 		};
+		E756FAE52E7DD13E003DF5C8 /* Supporting Code */ = {
+			isa = PBXGroup;
+			children = (
+				E756FAE12E7DD13E003DF5C8 /* AppFonts.swift */,
+				E756FAE22E7DD13E003DF5C8 /* Carousel.swift */,
+				E756FAE32E7DD13E003DF5C8 /* ShareCardView.swift */,
+				E756FAE42E7DD13E003DF5C8 /* TextView.swift */,
+			);
+			path = "Supporting Code";
+			sourceTree = "<group>";
+		};
 		E7B064D62E76BDC80027F1E5 = {
 			isa = PBXGroup;
 			children = (
+				E756FAE52E7DD13E003DF5C8 /* Supporting Code */,
 				E7B064E12E76BDC80027F1E5 /* Cards */,
 				E7B064E02E76BDC80027F1E5 /* Products */,
 			);
@@ -176,8 +202,11 @@
 				E756FA9D2E76E0C4003DF5C8 /* Config */,
 				E756FA952E76DC85003DF5C8 /* Model */,
 				E756FA922E76DAC9003DF5C8 /* Single Card Views */,
-				E7B064E22E76BDC80027F1E5 /* CardsApp.swift */,
 				E7B064F02E76C1220027F1E5 /* CardsListView.swift */,
+				E756FADF2E7DCD80003DF5C8 /* ListSelection.swift */,
+				E756FADB2E7DCB44003DF5C8 /* AppLoadingView.swift */,
+				E756FADD2E7DCB8F003DF5C8 /* SplashScreen.swift */,
+				E7B064E22E76BDC80027F1E5 /* CardsApp.swift */,
 				E7B064F22E76C2590027F1E5 /* CardThumbnail.swift */,
 				E756FA932E76DC0D003DF5C8 /* ResizableView.swift */,
 				E7B064E42E76BDC80027F1E5 /* ContentView.swift */,
@@ -272,7 +301,9 @@
 				E756FAD62E7DBE14003DF5C8 /* LayoutView.swift in Sources */,
 				E756FA9B2E76DFCA003DF5C8 /* CardToolbar.swift in Sources */,
 				E756FAB72E76F75A003DF5C8 /* StickerModal.swift in Sources */,
+				E756FAE92E7DD13E003DF5C8 /* TextView.swift in Sources */,
 				E756FAAC2E76EA56003DF5C8 /* Card.swift in Sources */,
+				E756FAE82E7DD13E003DF5C8 /* ShareCardView.swift in Sources */,
 				E756FAA82E76E9FA003DF5C8 /* CardStore.swift in Sources */,
 				E756FAA22E76E1D9003DF5C8 /* ColorExtensions.swift in Sources */,
 				E756FACC2E7D99B0003DF5C8 /* FrameModal.swift in Sources */,
@@ -285,13 +316,18 @@
 				E756FA942E76DC0D003DF5C8 /* ResizableView.swift in Sources */,
 				E7B064F12E76C1220027F1E5 /* CardsListView.swift in Sources */,
 				E756FAAA2E76EA2B003DF5C8 /* CardElement.swift in Sources */,
+				E756FAE72E7DD13E003DF5C8 /* Carousel.swift in Sources */,
 				E756FAC42E7D8A04003DF5C8 /* ElementContextMenu.swift in Sources */,
+				E756FAE02E7DCD80003DF5C8 /* ListSelection.swift in Sources */,
 				E756FA9F2E76E113003DF5C8 /* Settings.swift in Sources */,
 				E756FACE2E7D9BDB003DF5C8 /* UIImageExtensions.swift in Sources */,
 				E756FACA2E7D9867003DF5C8 /* Shapes.swift in Sources */,
 				E7B064F52E76C2EF0027F1E5 /* SingleCardView.swift in Sources */,
 				E756FAB02E76EB91003DF5C8 /* CardElementView.swift in Sources */,
+				E756FADE2E7DCB8F003DF5C8 /* SplashScreen.swift in Sources */,
+				E756FAE62E7DD13E003DF5C8 /* AppFonts.swift in Sources */,
 				E7B064F72E76C39D0027F1E5 /* ToolbarSelection.swift in Sources */,
+				E756FADC2E7DCB44003DF5C8 /* AppLoadingView.swift in Sources */,
 				E7B064F92E76C4390027F1E5 /* BottomToolbar.swift in Sources */,
 				E756FA972E76DCD0003DF5C8 /* Transform.swift in Sources */,
 				E756FAC02E7D86C1003DF5C8 /* PhotosModal.swift in Sources */,

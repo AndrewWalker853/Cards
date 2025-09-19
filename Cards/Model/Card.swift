@@ -11,10 +11,13 @@ struct Card: Identifiable {
   var id = UUID()
   var backgroundColor: Color = .yellow
   var elements: [CardElement] = []
+  var uiImage: UIImage?
 
-  mutating func addElement(uiImage: UIImage) {
+  mutating func addElement(uiImage: UIImage, at offset: CGSize = .zero) {
     let imageFilename = uiImage.save()
+    let transform = Transform(offset: offset)
     let element = ImageElement(
+      transform: transform,
       uiImage: uiImage,
       imageFilename: imageFilename)
     elements.append(element)
@@ -25,12 +28,12 @@ struct Card: Identifiable {
     elements.append(text)
   }
 
-  mutating func addElements(from transfer: [CustomTransfer]) {
+  mutating func addElements(from transfer: [CustomTransfer], at offset: CGSize) {
     for element in transfer {
       if let text = element.text {
         addElement(text: TextElement(text: text))
       } else if let image = element.image {
-        addElement(uiImage: image)
+        addElement(uiImage: image, at: offset)
       }
     }
   }
@@ -81,11 +84,7 @@ extension Card: Codable {
     self.id = UUID(uuidString: id) ?? UUID()
     elements += try container.decode(
       [ImageElement].self, forKey: .imageElements)
-
-    // Challenge 2 - load the text elements
     elements += try container.decode([TextElement].self, forKey: .textElements)
-
-    // Challenge 1 - load the background color
     let components = try container.decode([CGFloat].self, forKey: .backgroundColor)
     backgroundColor = Color.color(components: components)
   }
@@ -96,13 +95,9 @@ extension Card: Codable {
     let imageElements: [ImageElement] =
       elements.compactMap { $0 as? ImageElement }
     try container.encode(imageElements, forKey: .imageElements)
-
-    // Challenge 2 - save the text elements
     let textElements: [TextElement] =
       elements.compactMap { $0 as? TextElement }
     try container.encode(textElements, forKey: .textElements)
-
-    // Challenge 1 - save the background color
     let components = backgroundColor.colorComponents()
     try container.encode(components, forKey: .backgroundColor)
   }
