@@ -24,10 +24,10 @@
 		E756FAC02E7D86C1003DF5C8 /* PhotosModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756FABF2E7D86C0003DF5C8 /* PhotosModal.swift */; };
 		E756FAC22E7D88C2003DF5C8 /* CustomTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756FAC12E7D88C2003DF5C8 /* CustomTransfer.swift */; };
 		E756FAC42E7D8A04003DF5C8 /* ElementContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756FAC32E7D8A04003DF5C8 /* ElementContextMenu.swift */; };
-		E756FAC52E7D8FE5003DF5C8 /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = E756FAB82E7D843D003DF5C8 /* fire.png */; };
-		E756FAC62E7D8FE9003DF5C8 /* guitar.png in Resources */ = {isa = PBXBuildFile; fileRef = E756FAB92E7D843D003DF5C8 /* guitar.png */; };
-		E756FAC72E7D8FEC003DF5C8 /* tent.png in Resources */ = {isa = PBXBuildFile; fileRef = E756FABA2E7D843D003DF5C8 /* tent.png */; };
-		E756FAC82E7D8FF0003DF5C8 /* tree.png in Resources */ = {isa = PBXBuildFile; fileRef = E756FABB2E7D843D003DF5C8 /* tree.png */; };
+		E756FACA2E7D9867003DF5C8 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756FAC92E7D9867003DF5C8 /* Shapes.swift */; };
+		E756FACC2E7D99B0003DF5C8 /* FrameModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756FACB2E7D99B0003DF5C8 /* FrameModal.swift */; };
+		E756FACE2E7D9BDB003DF5C8 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756FACD2E7D9BDB003DF5C8 /* UIImageExtensions.swift */; };
+		E756FAD02E7DA260003DF5C8 /* Stickers in Resources */ = {isa = PBXBuildFile; fileRef = E756FACF2E7DA260003DF5C8 /* Stickers */; };
 		E7B064E32E76BDC80027F1E5 /* CardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B064E22E76BDC80027F1E5 /* CardsApp.swift */; };
 		E7B064E52E76BDC80027F1E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B064E42E76BDC80027F1E5 /* ContentView.swift */; };
 		E7B064E72E76BDCD0027F1E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B064E62E76BDCD0027F1E5 /* Assets.xcassets */; };
@@ -55,13 +55,13 @@
 		E756FAAF2E76EB91003DF5C8 /* CardElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardElementView.swift; sourceTree = "<group>"; };
 		E756FAB12E76F23F003DF5C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E756FAB62E76F75A003DF5C8 /* StickerModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerModal.swift; sourceTree = "<group>"; };
-		E756FAB82E7D843D003DF5C8 /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
-		E756FAB92E7D843D003DF5C8 /* guitar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guitar.png; sourceTree = "<group>"; };
-		E756FABA2E7D843D003DF5C8 /* tent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tent.png; sourceTree = "<group>"; };
-		E756FABB2E7D843D003DF5C8 /* tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree.png; sourceTree = "<group>"; };
 		E756FABF2E7D86C0003DF5C8 /* PhotosModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosModal.swift; sourceTree = "<group>"; };
 		E756FAC12E7D88C2003DF5C8 /* CustomTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransfer.swift; sourceTree = "<group>"; };
 		E756FAC32E7D8A04003DF5C8 /* ElementContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementContextMenu.swift; sourceTree = "<group>"; };
+		E756FAC92E7D9867003DF5C8 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		E756FACB2E7D99B0003DF5C8 /* FrameModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameModal.swift; sourceTree = "<group>"; };
+		E756FACD2E7D9BDB003DF5C8 /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		E756FACF2E7DA260003DF5C8 /* Stickers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Stickers; path = "../../../Downloads/suia-materials-editions-2.0/18-paths-and-custom-shapes/projects/challenge/Cards/Cards/Stickers"; sourceTree = "<group>"; };
 		E7B064DF2E76BDC80027F1E5 /* Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B064E22E76BDC80027F1E5 /* CardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsApp.swift; sourceTree = "<group>"; };
 		E7B064E42E76BDC80027F1E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +109,7 @@
 				E756FAA92E76EA2B003DF5C8 /* CardElement.swift */,
 				E756FAAB2E76EA55003DF5C8 /* Card.swift */,
 				E756FAC12E7D88C2003DF5C8 /* CustomTransfer.swift */,
+				E756FAC92E7D9867003DF5C8 /* Shapes.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -126,6 +127,7 @@
 			children = (
 				E756FAA12E76E1D9003DF5C8 /* ColorExtensions.swift */,
 				E756FAA52E76E9A2003DF5C8 /* TextExtensions.swift */,
+				E756FACD2E7D9BDB003DF5C8 /* UIImageExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -135,27 +137,9 @@
 			children = (
 				E756FAB62E76F75A003DF5C8 /* StickerModal.swift */,
 				E756FABF2E7D86C0003DF5C8 /* PhotosModal.swift */,
+				E756FACB2E7D99B0003DF5C8 /* FrameModal.swift */,
 			);
 			path = "Card Modal Views";
-			sourceTree = "<group>";
-		};
-		E756FABC2E7D843D003DF5C8 /* Camping */ = {
-			isa = PBXGroup;
-			children = (
-				E756FAB82E7D843D003DF5C8 /* fire.png */,
-				E756FAB92E7D843D003DF5C8 /* guitar.png */,
-				E756FABA2E7D843D003DF5C8 /* tent.png */,
-				E756FABB2E7D843D003DF5C8 /* tree.png */,
-			);
-			path = Camping;
-			sourceTree = "<group>";
-		};
-		E756FABD2E7D843D003DF5C8 /* Stickers */ = {
-			isa = PBXGroup;
-			children = (
-				E756FABC2E7D843D003DF5C8 /* Camping */,
-			);
-			path = Stickers;
 			sourceTree = "<group>";
 		};
 		E7B064D62E76BDC80027F1E5 = {
@@ -177,7 +161,7 @@
 		E7B064E12E76BDC80027F1E5 /* Cards */ = {
 			isa = PBXGroup;
 			children = (
-				E756FABD2E7D843D003DF5C8 /* Stickers */,
+				E756FACF2E7DA260003DF5C8 /* Stickers */,
 				E756FAB12E76F23F003DF5C8 /* Info.plist */,
 				E756FAA02E76E184003DF5C8 /* Extensions */,
 				E756FA9D2E76E0C4003DF5C8 /* Config */,
@@ -262,11 +246,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7B064EA2E76BDCD0027F1E5 /* Preview Assets.xcassets in Resources */,
-				E756FAC72E7D8FEC003DF5C8 /* tent.png in Resources */,
-				E756FAC62E7D8FE9003DF5C8 /* guitar.png in Resources */,
+				E756FAD02E7DA260003DF5C8 /* Stickers in Resources */,
 				E7B064E72E76BDCD0027F1E5 /* Assets.xcassets in Resources */,
-				E756FAC52E7D8FE5003DF5C8 /* fire.png in Resources */,
-				E756FAC82E7D8FF0003DF5C8 /* tree.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +265,7 @@
 				E756FAAC2E76EA56003DF5C8 /* Card.swift in Sources */,
 				E756FAA82E76E9FA003DF5C8 /* CardStore.swift in Sources */,
 				E756FAA22E76E1D9003DF5C8 /* ColorExtensions.swift in Sources */,
+				E756FACC2E7D99B0003DF5C8 /* FrameModal.swift in Sources */,
 				E7B064F32E76C2590027F1E5 /* CardThumbnail.swift in Sources */,
 				E756FA992E76DD1F003DF5C8 /* Operators.swift in Sources */,
 				E756FAA62E76E9A2003DF5C8 /* TextExtensions.swift in Sources */,
@@ -294,6 +276,8 @@
 				E756FAAA2E76EA2B003DF5C8 /* CardElement.swift in Sources */,
 				E756FAC42E7D8A04003DF5C8 /* ElementContextMenu.swift in Sources */,
 				E756FA9F2E76E113003DF5C8 /* Settings.swift in Sources */,
+				E756FACE2E7D9BDB003DF5C8 /* UIImageExtensions.swift in Sources */,
+				E756FACA2E7D9867003DF5C8 /* Shapes.swift in Sources */,
 				E7B064F52E76C2EF0027F1E5 /* SingleCardView.swift in Sources */,
 				E756FAB02E76EB91003DF5C8 /* CardElementView.swift in Sources */,
 				E7B064F72E76C39D0027F1E5 /* ToolbarSelection.swift in Sources */,
