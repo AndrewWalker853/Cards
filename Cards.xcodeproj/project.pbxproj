@@ -28,6 +28,8 @@
 		E756FACC2E7D99B0003DF5C8 /* FrameModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756FACB2E7D99B0003DF5C8 /* FrameModal.swift */; };
 		E756FACE2E7D9BDB003DF5C8 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756FACD2E7D9BDB003DF5C8 /* UIImageExtensions.swift */; };
 		E756FAD02E7DA260003DF5C8 /* Stickers in Resources */ = {isa = PBXBuildFile; fileRef = E756FACF2E7DA260003DF5C8 /* Stickers */; };
+		E756FAD22E7DA553003DF5C8 /* AngleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756FAD12E7DA553003DF5C8 /* AngleExtensions.swift */; };
+		E756FAD42E7DB8FB003DF5C8 /* TextModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756FAD32E7DB8FB003DF5C8 /* TextModal.swift */; };
 		E7B064E32E76BDC80027F1E5 /* CardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B064E22E76BDC80027F1E5 /* CardsApp.swift */; };
 		E7B064E52E76BDC80027F1E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B064E42E76BDC80027F1E5 /* ContentView.swift */; };
 		E7B064E72E76BDCD0027F1E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B064E62E76BDCD0027F1E5 /* Assets.xcassets */; };
@@ -62,6 +64,8 @@
 		E756FACB2E7D99B0003DF5C8 /* FrameModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameModal.swift; sourceTree = "<group>"; };
 		E756FACD2E7D9BDB003DF5C8 /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
 		E756FACF2E7DA260003DF5C8 /* Stickers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Stickers; path = "../../../Downloads/suia-materials-editions-2.0/18-paths-and-custom-shapes/projects/challenge/Cards/Cards/Stickers"; sourceTree = "<group>"; };
+		E756FAD12E7DA553003DF5C8 /* AngleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleExtensions.swift; sourceTree = "<group>"; };
+		E756FAD32E7DB8FB003DF5C8 /* TextModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModal.swift; sourceTree = "<group>"; };
 		E7B064DF2E76BDC80027F1E5 /* Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B064E22E76BDC80027F1E5 /* CardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsApp.swift; sourceTree = "<group>"; };
 		E7B064E42E76BDC80027F1E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,6 +132,7 @@
 				E756FAA12E76E1D9003DF5C8 /* ColorExtensions.swift */,
 				E756FAA52E76E9A2003DF5C8 /* TextExtensions.swift */,
 				E756FACD2E7D9BDB003DF5C8 /* UIImageExtensions.swift */,
+				E756FAD12E7DA553003DF5C8 /* AngleExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 				E756FAB62E76F75A003DF5C8 /* StickerModal.swift */,
 				E756FABF2E7D86C0003DF5C8 /* PhotosModal.swift */,
 				E756FACB2E7D99B0003DF5C8 /* FrameModal.swift */,
+				E756FAD32E7DB8FB003DF5C8 /* TextModal.swift */,
 			);
 			path = "Card Modal Views";
 			sourceTree = "<group>";
@@ -270,6 +276,7 @@
 				E756FA992E76DD1F003DF5C8 /* Operators.swift in Sources */,
 				E756FAA62E76E9A2003DF5C8 /* TextExtensions.swift in Sources */,
 				E756FAA42E76E8BE003DF5C8 /* PreviewData.swift in Sources */,
+				E756FAD42E7DB8FB003DF5C8 /* TextModal.swift in Sources */,
 				E7B064E52E76BDC80027F1E5 /* ContentView.swift in Sources */,
 				E756FA942E76DC0D003DF5C8 /* ResizableView.swift in Sources */,
 				E7B064F12E76C1220027F1E5 /* CardsListView.swift in Sources */,
@@ -285,6 +292,7 @@
 				E756FA972E76DCD0003DF5C8 /* Transform.swift in Sources */,
 				E756FAC02E7D86C1003DF5C8 /* PhotosModal.swift in Sources */,
 				E7B064E32E76BDC80027F1E5 /* CardsApp.swift in Sources */,
+				E756FAD22E7DA553003DF5C8 /* AngleExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
