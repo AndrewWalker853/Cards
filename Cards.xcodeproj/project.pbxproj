@@ -30,6 +30,7 @@
 		E756FAD02E7DA260003DF5C8 /* Stickers in Resources */ = {isa = PBXBuildFile; fileRef = E756FACF2E7DA260003DF5C8 /* Stickers */; };
 		E756FAD22E7DA553003DF5C8 /* AngleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756FAD12E7DA553003DF5C8 /* AngleExtensions.swift */; };
 		E756FAD42E7DB8FB003DF5C8 /* TextModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756FAD32E7DB8FB003DF5C8 /* TextModal.swift */; };
+		E756FAD62E7DBE14003DF5C8 /* LayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756FAD52E7DBE14003DF5C8 /* LayoutView.swift */; };
 		E7B064E32E76BDC80027F1E5 /* CardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B064E22E76BDC80027F1E5 /* CardsApp.swift */; };
 		E7B064E52E76BDC80027F1E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B064E42E76BDC80027F1E5 /* ContentView.swift */; };
 		E7B064E72E76BDCD0027F1E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B064E62E76BDCD0027F1E5 /* Assets.xcassets */; };
@@ -66,6 +67,7 @@
 		E756FACF2E7DA260003DF5C8 /* Stickers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Stickers; path = "../../../Downloads/suia-materials-editions-2.0/18-paths-and-custom-shapes/projects/challenge/Cards/Cards/Stickers"; sourceTree = "<group>"; };
 		E756FAD12E7DA553003DF5C8 /* AngleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleExtensions.swift; sourceTree = "<group>"; };
 		E756FAD32E7DB8FB003DF5C8 /* TextModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModal.swift; sourceTree = "<group>"; };
+		E756FAD52E7DBE14003DF5C8 /* LayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutView.swift; sourceTree = "<group>"; };
 		E7B064DF2E76BDC80027F1E5 /* Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B064E22E76BDC80027F1E5 /* CardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsApp.swift; sourceTree = "<group>"; };
 		E7B064E42E76BDC80027F1E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				E756FAAD2E76EB4C003DF5C8 /* CardDetailView.swift */,
 				E756FAAF2E76EB91003DF5C8 /* CardElementView.swift */,
 				E756FAC32E7D8A04003DF5C8 /* ElementContextMenu.swift */,
+				E756FAD52E7DBE14003DF5C8 /* LayoutView.swift */,
 			);
 			path = "Single Card Views";
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			files = (
 				E756FAC22E7D88C2003DF5C8 /* CustomTransfer.swift in Sources */,
 				E756FAAE2E76EB4C003DF5C8 /* CardDetailView.swift in Sources */,
+				E756FAD62E7DBE14003DF5C8 /* LayoutView.swift in Sources */,
 				E756FA9B2E76DFCA003DF5C8 /* CardToolbar.swift in Sources */,
 				E756FAB72E76F75A003DF5C8 /* StickerModal.swift in Sources */,
 				E756FAAC2E76EA56003DF5C8 /* Card.swift in Sources */,
